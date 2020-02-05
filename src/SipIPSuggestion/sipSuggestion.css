@@ -1,0 +1,199 @@
+.sipSuggestion_modalButton {
+    align-items: center;
+    margin-bottom: 3%;
+}
+.sipSuggestionaddCart {
+    flex: 3 1;
+    background-color: #00008b;
+    border-color: #FFF;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.sipSuggestionButton {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #FFF;
+    padding: 10px 0;
+    font-family: sans-serif;
+}
+.siptablehead {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #000;
+    font-weight: 600;
+}
+.sipcolumnsButton {
+    flex-direction: column;
+    margin: 15px 10px;
+    width: 18%;
+}
+.sipEuityFund {
+    margin: 5% 0 0 0
+}
+.sipsugFirstcolumn {
+    font-family: sans-serif;
+    margin: 17px 14px;
+    font-size: 16px;
+}
+.sipClose_image {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.modal_title {
+    align-items: flex-end;
+}
+.modal_fund_title {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.sip_basic_details {
+    border-bottom-color: #00558B;
+    border-bottom-width: 5px;
+    width: 200;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+}
+.sip_tab_section {
+    align-content: center;
+    align-items: center;
+    border-bottom-color: #C0C0C0;
+    border-bottom-width: 1px;
+}
+.sip_basicDetails_text {
+    font-size: 18px;
+    color: #00008b;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.sipModal_content {
+    margin-top: 20px;
+}
+.sipsuggContent {
+    margin: 10px;
+}
+.sipContent_text {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.sipContent_para {
+    margin: 10px;
+    background-color: #f1f1f1;
+}
+.sipFund_heading {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.sipContentParaDiv {
+    margin: 20px;
+}
+.sipContentsecondDiv {
+    margin-bottom: 10px
+}
+.sipfundPara {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #8c8987;
+}
+.sipTable_container {
+    margin: 10px;
+    flex-direction: row;
+}
+.siptableWidth {
+    width: 45%;
+    border-color: #c7c8c6;
+    border-width: 1px;
+    margin: 20px;
+}
+.siptableHeight {
+    height: 40px;
+}
+.siptableData {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.siptableInnerdata {
+    height: 40px;
+    border-top-color: #c7c8c6;
+    border-top-width: 1px;
+    flex-direction: row;
+}
+.siptableInnerdatatext {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 10px;
+    color: #8c8987;
+}
+.siptableLink {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+}
+.siptableLink a {
+    color: blue;
+}
+.siptableRow {
+    min-height: 50px;
+    border-top-color: #c7c8c6;
+    border-top-width: 1px;
+    flex-direction: row;
+}
+.siptableFirstrowData {
+    font-size: 16px;
+    width: 45%;
+    font-family: sans-serif;
+    margin: 10px;
+    color: #8c8987;
+}
+.siptableSecrowData {
+    font-size: 16px;
+    width: 55%;
+    font-family: sans-serif;
+    text-align: right;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+}
+.commonModal {
+    background: #fff;
+    flex: 1;
+    justify-content: flex-start !important;
+    padding: 15px;
+    margin: 2% 10% !important;
+  }
+  .sipDisclaimer {
+    padding: 0 3%;
+}
+.sipSugButtonview {
+    flex-direction: column;
+    margin: 10px;
+    width: 30%;
+}
+
+@media(max-width: 767px) {
+    .siptableWidth {
+        width: 100%;
+        margin: 0;
+    }
+    .commonModal {
+        margin: 2% 5% !important;
+      }
+}

@@ -1,0 +1,615 @@
+h3 {
+  background: #00558B;
+  color: #fff;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+
+.react-datepicker-popper {
+    z-index: 9999 !important;
+}
+
+*:focus {
+    outline: none;
+}
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 4;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 4;
+}
+
+.react-datepicker-wrapper .react-datepicker__input-container input{
+   width: '-webkit-fill-available';
+   margin-left: 10px;
+   /* padding-left:12px; */
+   height:40px;
+   border-color: transparent;
+   /* border of datepicker */
+   border-width: thin;
+   font-family: arial;
+    font-size: 14px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.variable-width .slick-slide p {
+  background: #00558B;
+  height: 100px;
+  color: #fff;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+}
+.center .slick-center h3 {
+  color: #e67e22;
+  opacity: 1;
+  transform: scale(1.08);
+}
+.center h3{
+  opacity: 0.8;
+  transition: all 300ms ease;
+}
+.content {
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+}
+.slick-slide .image {
+  padding: 10px;
+}
+.slick-slide img {
+  border: 5px solid #FFF;
+  display: block;
+  margin: auto;
+}
+.slick-slide img.slick-loading {
+  border: 0
+}
+.slick-slider {
+  margin: 30px auto 50px;
+}
+.slick-dots {
+  margin-left: 0;
+}
+.login_container {
+  justify-content: center;
+  min-height: 80vh;
+}
+.error_msg {
+  margin-top: 3px;
+}
+.error_text {
+  color: red;
+  font-family: sans-serif;
+}
+.currentholding_container {
+  justify-content: center;
+  min-height: 60vh;
+}
+.currentoldingTop {
+  margin-top: 10px;
+}
+.currentHoldingText {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.thankYoumodal {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10% 25% !important;
+}
+.nomineeSuccessicon {
+  width: 100px;
+  height: 100px;
+}
+.nomineeSuccessicon img {
+  position: relative;
+}
+.nomineethankYoucontainer {
+  align-items: center;
+  margin: 8% 0;
+}
+.nomineeText {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.nomineeButton {
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+.nomineeOpacity {
+  width: 150px;
+  height: 40px;
+  background-color: #00008b;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.nomineeButtontext {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size:24px;
+  }
+  .center {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .center .slick-center h3 {
+    color: #e67e22;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .center h3 {
+    opacity: 0.8;
+    transform: scale(0.95);
+    transition: all 300ms ease;
+  }
+  .thankYoumodal {
+    margin: 5% !important;
+  }
+  .nomineeText {
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+}
+
+.slick-vertical .slick-slide {
+  height: 180px;
+}
+
+.up-arrow:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    bottom: -10px;
+    margin: 0 50%;
+    background-color: inherit;
+    -webkit-transform: rotate(45deg);
+}
+.Checkbox {
+
+  top:4px !important;
+}
+.modalbootbox{
+  background-color: #FFF;
+  width: '40%';
+  height: 150px;
+  border-radius: 10px;
+
+}
+.onhovercolor{
+  background-color: #FFF;
+  color: black;
+  border-width: 1px;
+  border-color:black
+}
+.onhovercolor:hover{
+  border-width: 1px;
+  background-color: #B02A31;
+  border-color:black;
+  color: #FFF
+}
+.onhovertext{
+  color: black;
+}
+.onhovertext:hover{
+  color:#fff;
+}
+@media only screen and (max-width: 600px) {
+
+  .modalbootbox{
+    background-color: #FFF;
+    width: '100%';
+    height: 150px;
+    border-radius: 10px;
+ 
+  }
+}
+.button:hover{
+  box-shadow: 1px 1px 1px 1px black;
+}
+.react-calendar__tile.react-calendar__year-view__months__month{
+  padding: 1em 0.2em !important;
+}
+.react-calendar__tile.react-calendar__tile--hasActive.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__decade-view__years__year{
+  padding: 1em 0.2em !important;
+}
+.react-calendar__tile.react-calendar__decade-view__years__year{
+  padding: 1em 0.2em !important;
+}
+
+/* product page styles */
+/* start */
+.productcontainer
+{
+  margin-bottom: 10px;
+  width: 60%;
+  align-self: center;
+
+}
+
+.productcontainerallign{
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.productinnercontainer{
+ width: 100%;
+  height: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.productborder{
+  padding: 20px;
+  margin: 10px;
+}
+.productmobileheader_view{
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  margin-bottom: 10px
+}
+.productmobileheaderstyle{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+ 
+}
+.productotp_ModalbuttonView{
+  flex-direction: row;
+  margin-top: 10px;
+  align-self: center;
+ 
+}
+.productmobileConfirmbutton{
+  flex: 3;
+  background-color:#00008b;
+  border-color: #FFF;
+  height: 40px;
+ width: 150px;
+  cursor: pointer;
+  margin-top: 20px;
+  align-content: center;
+  justify-content: center;
+}
+.productConfirmtext{
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #FFF;
+  padding: 8px 0;
+  font-family: sans-serif;  
+}
+.productinputView{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.productinputView2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .productcontainer
+  {
+    margin-bottom: 10px;
+    width: 80%;
+    align-self: center;
+  
+  }
+  
+  .productcontainerallign{
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .productinnercontainer{
+   width: 100%;
+    height: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+  }
+  
+  .productborder{
+    padding: 20px;
+    margin: 10px;
+  }
+  .productmobileheader_view{
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin-bottom: 10px
+  }
+  .productmobileheaderstyle{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+   
+  }
+  .productotp_ModalbuttonView{
+    flex-direction: row;
+    margin-top: 10px;
+    align-self: center;
+   
+  }
+  .productmobileConfirmbutton{
+    flex: 3;
+    background-color:#00008b;
+    border-color: #FFF;
+    height: 40px;
+   width: 150px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-content: center;
+    justify-content: center;
+  }
+  .productConfirmtext{
+    font-size: 18px;
+    color: #696969;
+    font-weight: 500;
+    text-align: center;
+    color: #FFF;
+    
+  }
+}
+/* end */
+
+/* landing page css */
+/* start */
+.Landingcontainer{
+  margin-bottom: 10px;
+  width: 100%;
+  align-self: center;
+}
+.Landingallignment{
+  align-items: center;
+  justify-content: center;
+}
+.LandinginnerContainer{
+  width: 60%;
+  height: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+.Landingborder{
+  padding: 20px;
+  margin: 10px;
+}
+.landingButtonView{
+  flex-direction: row;
+  margin: 10px;
+  align-self: center;
+}
+.Landingbuttonstyle{
+flex: 3;
+border-radius: 10px;
+background-color: #e2e2e2be;
+border-color: #FFF;
+height: 50px;
+width: 200px;
+cursor: pointer;
+ margin:10px;
+ align-content: center;
+ justify-content: center
+ 
+}
+.Landingbuttontextstyle{
+  font-size: 18px;
+  color: #00008b;
+  font-weight: 600;
+  text-align: center;
+  font-family: sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .Landingcontainer{
+    margin-top: 20px;
+    width: 100%;
+    align-self: center;
+  }
+  .LandinginnerContainer{
+    width: 80%;
+    height: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+  }
+  .landingButtonView{
+    flex-direction: column;
+    margin: 0px;
+    align-self: center;
+  }
+  .Landingbuttonstyle{ 
+    flex: auto;
+    border-radius: 10px;
+    background-color: #e2e2e2be;
+    border-color: #FFF;
+    height: 50px;
+    width: 220px;
+    cursor: pointer;
+     margin:10px;
+     align-content: center;
+     justify-content: center
+     
+    }
+}
+/* end */
+
+/* investnow styles */
+.investnowcontainer
+{
+  margin-bottom: 10px;
+  width: 100%;
+  align-self: center;
+}
+
+.investnowcontainerallign{
+  align-items: center;
+  justify-content: center;
+}
+
+.investnowinnercontainer{
+  width: 60%;
+  height: 10%;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .investnowinnercontainer{
+    width: 80%;
+    height: 10%;
+    background-color: #FFF;
+    border-radius: 10px;
+  }  
+}
+
+/* current holding styles */
+.currentholdingcontainer{
+  margin-bottom: 10px;
+  width: 100%;
+  align-self: center;
+}
+.currentholdingcontainerallign{
+  align-items: center;
+  justify-content: center;
+}
+.currentholdinginnercontainer{
+  width: 70%;
+  height: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+.currentholdingborder{
+  padding: 10px ;
+  margin: 10px;
+}
+.currentholdingHeaderView{
+  flex-direction: row;
+  background-color: #e2e2e2;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.currentholdingHeaderposition{
+ position: absolute;
+  left: 0;
+  margin-left: 20px;
+}
+.currentholdingHeaderposition2{
+  position: absolute;
+   right: 0;
+   margin-right: 20px;
+ }
+.currentholdingHeaderText{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #00008b;
+}
+.currentholdingbuttonView{
+  flex-direction: column;
+  margin: 10px;
+  width: 19%;
+}
+.currentholdingbuttonText{
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-top: 10px;
+  color: #949494;
+  font-weight: 600;
+ 
+}
+.totalinvestment{
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #949494;
+  font-weight: 600;
+  float: left
+}
+
+
+/* Sip styles */
+.sipinnerconatiner{
+ width: 50%;
+  height: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+.sipamountText{
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sipinnerconatiner{
+    width: 80%;
+     height: auto;
+     background-color: #FFF;
+     border-radius: 10px;
+   }  
+}
+
+/* asset alloction styles */
+.assetallocationcontainer{
+  margin-bottom: 10px;
+  width: 100%;
+  align-self: center;
+  /* margin-top: 30px; */
+}
+.assetallocationInnercontainer{
+  width: 80%;
+  height: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  
+}
+.assetallocationText1{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.assetallocationText2{
+  font-size: 16px;
+  font-family: sans-serif;
+  
+}
+.assetallocationText3{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.assetallocationcontainer2{
+  width: 100%;
+  background-color: #f9f9f9;
+  margin-top: 10px;
+
+}
+.totalInvestmentheading{
+  align-items: left;
+  justify-content: left;
+  margin-left: 3% !important
+}
